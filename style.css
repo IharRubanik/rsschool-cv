@@ -1,0 +1,38 @@
+body {
+  /*background:  #81d3a6; url (images/fone.jpg) no-repeat;*/
+  background-color: #d7ddd3;
+  background-image: url(images/fone.jpg);
+  font-style: normal;
+  margin: 1.8%;
+  color: rgb(19, 27, 27);
+  font-size: 18px;
+  width: 1024px;
+
+  
+}
+img {
+    border-radius: 50%;
+}
+header {
+    text-align: center;
+    font-size: 18px;
+ }
+b {
+    font-size: 20px;
+    text-decoration: underline;
+}
+a {
+    color: rgb(77, 41, 41)
+}
+a:hover {
+    text-decoration: none;
+}
+@media screen and (max-width: 800px ) {
+    body {font-size: 80%;}
+    header {font-size: 80%;}
+    img {height: 200px;}
+    hr {width: 500px;}
+    b {font-size: 80%;}
+    body {width: 800px;}
+}
+
